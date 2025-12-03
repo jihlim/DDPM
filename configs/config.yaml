@@ -1,0 +1,22 @@
+model: 
+  model_name: ddpm
+  pretrained_type: best_model.pth
+
+data:
+  dataset_name: mnist
+
+train:
+  epochs: 2048
+  batch_size: 128
+  sampling_batch_size: 1
+  lr: 0.00001               # 2e-5 for MNIST images
+  lr_decay: 0.995
+  momentum: 0.9
+  weight_decay: 0.01
+  betas: (0.9, 0.999)
+  gamma: 0.1
+  milestones: [16, 32]
+  lambda_decay: 0.998466
+  optimizer: SGD
+  scheduler: None
+  resume: False
