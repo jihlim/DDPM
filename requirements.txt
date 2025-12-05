@@ -1,0 +1,7 @@
+opencv-python
+wandb
+matplotlib
+tensorboard==2.20
+seaborn
+pytz
+scipy
