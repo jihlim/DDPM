@@ -9,7 +9,7 @@ The unofficial Pytorch implementaion of Denoising Diffusion Probabilistic Models
 ```
 $ git clone https://github.com/jihlim/DDPM.git
 $ cd DDPM
-$ pip install -r requirement.txt
+$ pip install -r requirements.txt
 ```
 
 ## Train
